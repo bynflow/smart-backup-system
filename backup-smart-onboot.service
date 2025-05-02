@@ -1,0 +1,7 @@
+[Unit]
+Description=Run smart backup shortly after user login
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/scripts/backup-smart/backup-smart.sh
+

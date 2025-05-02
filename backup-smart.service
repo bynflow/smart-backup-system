@@ -1,0 +1,6 @@
+[Unit]
+Description=Run backup-smart.sh
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/scripts/backup-smart/backup-smart.sh

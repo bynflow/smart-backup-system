@@ -1,0 +1,10 @@
+[Unit]
+Description=Run backup-smart shortly after boot/login
+
+[Timer]
+OnBootSec=10min
+AccuracySec=1min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

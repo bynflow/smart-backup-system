@@ -1,0 +1,32 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+.local/logs/
+
+# Bash history and sensitive files
+*.sh~
+*.bak
+*.swp
+*.swo
+
+# Systemd user units backup (optional, remove if you want to version them)
+# *.service
+# *.timer
+
+# Temporary files
+tmp/
+*.tmp
+
+# Python virtual environments (if any are created later)
+.venv/
+env/
+
+# Backup and trash directories (remote or local versions)
+trash/
+Trash/
+deleted/
+Deleted/
